@@ -30,3 +30,6 @@
   - MainAxisSize.max：主轴尽可能的大；
   - MainAxisSize.min：主轴尽可能的小，只要包裹住子Widget即可。
 
+## 参考资料
+
+[老孟Flutter](http://laomengit.com/flutter/widgets/Column.html)
