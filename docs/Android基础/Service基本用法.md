@@ -6,7 +6,7 @@
 - 服务并不运行在单独的**进程**中，依赖于创建服务时所在的进程；
 - 服务不会自动开启**线程**，任务默认运行在主线程。
 
-#### 定义一个服务
+#### 1、定义一个服务
 
 - 继承Service；
 - 重写`onCreate,onStartCommand,onDestroy`方法；
@@ -30,7 +30,7 @@
 
 - Ps：现实情况是一旦服务开启就会和Activity失去联系的。
 
-#### 服务和界面通信
+#### 2、服务和界面通信
 
 - 在Service中继承Binder创建子类，子类中写和界面交互的方法；
 - 在`onBind`中返回Binder子类的实例；
@@ -54,7 +54,7 @@
 | `startService` | `bindService`  | `stopService`   | `unbindService` | `onCreate->onStartCommand->onBind->onDestroy` |
 | `bindService`  | `startService` | `stopService`   | `unbindService` | `onCreate->onBind->onStartCommand->onDestroy` |
 
-#### 前台服务优点
+#### 3、前台服务优点
 
 - 提升优先级；
 
@@ -90,7 +90,7 @@
           startForeground(1, notification);
   ```
 
-#### `IntentService`的优点
+#### `4、IntentService`的优点
 
 - 简单的创建一个异步的，执行完任务会自动停止的服务。
 
