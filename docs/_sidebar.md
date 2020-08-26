@@ -10,7 +10,7 @@
 # Android基础知识
 
 - [Service的基本用法](./Android基础/Service基本用法.md)
-- [Broadcast Receiver](./Android基础/Broadcast Receiver基本用法.md)
+- [Broadcast Receiver](./Android基础/BroadcastReceiver基本用法.md)
 
 # Android第三方库
 
