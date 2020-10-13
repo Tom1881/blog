@@ -13,6 +13,12 @@
 - [Broadcast Receiver](./Android基础/BroadcastReceiver基本用法.md)
 - [数据持久化](./Android基础/数据持久化.md)
 
+
+
+# Android小知识
+
+- [打开第三方App的几种方法.md](./小知识点/)
+
 # Android第三方库
 
 - [数据库](./Android第三方库/数据库.md)
